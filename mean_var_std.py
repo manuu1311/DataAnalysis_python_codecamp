@@ -1,7 +1,7 @@
 import numpy as np
 
 def calculate(arr):
-    if len(arr)<9:
+    if len(arr)!=9:
         raise ValueError('List must contain nine numbers.')
     
     arr=np.array(arr).reshape((3,3))
